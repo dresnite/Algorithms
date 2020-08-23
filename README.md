@@ -13,3 +13,7 @@ A compilation of some algorithms & data structures.
 - [ ] Counting sort
 - [ ] Radix sort
 - [ ] Stable counting sort
+
+### Other math algorithms
+
+- [x] Factorial calculation
