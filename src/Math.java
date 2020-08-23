@@ -14,7 +14,7 @@ public class Math {
     }
 
     public static int recFactorialOf(int num) {
-        return num == 1 ? 1 : num * recFactorialOf(num - 1);
+        return num == 0 ? 1 : num * recFactorialOf(num - 1);
     }
 
 }
