@@ -13,4 +13,8 @@ public class Math {
         return result;
     }
 
+    public static int recFactorialOf(int num) {
+        return num == 1 ? 1 : num * recFactorialOf(num - 1);
+    }
+
 }
