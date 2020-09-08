@@ -13,6 +13,22 @@ public class Math {
         return result;
     }
 
+    public static int[] fibonacci(int length) {
+        int last = 1;
+        int number = 0;
+
+        int[] result = new int[length];
+        for(int i = 0; i < length; i++) {
+            int n = number;
+            number += last;
+            last = n;
+
+            result[i] = number;
+        }
+
+        return result;
+    }
+
     public static int recFactorialOf(int num) {
         return num == 0 ? 1 : num * recFactorialOf(num - 1);
     }
