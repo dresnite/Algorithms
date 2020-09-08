@@ -17,3 +17,4 @@ A compilation of some algorithms & data structures.
 ### Other math algorithms
 
 - [x] Factorial calculation
+- [x] Fibonacci sequence
